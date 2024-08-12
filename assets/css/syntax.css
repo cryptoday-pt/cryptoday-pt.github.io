@@ -59,7 +59,6 @@
 .codehilite .vi { color: #008080 } /* Name.Variable.Instance */
 .codehilite .il { color: #009999 } /* Literal.Number.Integer.Long */
 
-html *
-{
-   font-family: Perpetua !important;
+body, h1, h2, h3, h4, h5, h6  {
+    font-family: Georgia, serif;
 }
