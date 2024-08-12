@@ -81,16 +81,16 @@ a:hover {
 }
 
 hr {
-  min-width: 500px;
+  min-width: 300px;
   width: 50%;
   margin: 0 auto;
-  padding-top:5px;
-  padding-bottom:5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #main {
   text-align: left;
-  min-width: 500px;
+  min-width: 300px;
   width: 50%;
   margin: 0 auto;
 }
