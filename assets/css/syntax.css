@@ -81,7 +81,7 @@ a:hover {
 }
 
 hr {
-  min-width: 350px;
+  min-width: 325px;
   width: 50%;
   margin: 0 auto;
   margin-top: 20px;
@@ -90,7 +90,7 @@ hr {
 
 #main {
   text-align: left;
-  min-width: 350px;
+  min-width: 325px;
   width: 50%;
   margin: 0 auto;
 }
