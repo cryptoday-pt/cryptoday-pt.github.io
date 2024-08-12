@@ -60,5 +60,22 @@
 .codehilite .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 body, h1, h2, h3, h4, h5, h6  {
-    font-family: Georgia, serif;
+  font-family: Georgia, serif;
 }
+
+:root{
+  --maincolor: rgb(0, 145, 107);
+  --bordercl:black;
+  --callouctcolor:dodgerblue;
+  --hovercolor:rgb(0, 145, 107);
+}  
+a {
+  border-bottom: 3px solid var(--maincolor);
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  background-color: var(--hovercolor);
+  color: black;
+}
+  
