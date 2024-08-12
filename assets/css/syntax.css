@@ -81,6 +81,7 @@ a:hover {
 }
 
 hr {
+  min-width: 500px;
   width: 50%;
   margin: 0 auto;
   padding-top:5px;
@@ -89,6 +90,7 @@ hr {
 
 #main {
   text-align: left;
+  min-width: 500px;
   width: 50%;
   margin: 0 auto;
 }
