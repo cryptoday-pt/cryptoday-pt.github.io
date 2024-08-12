@@ -83,6 +83,8 @@ a:hover {
 hr {
   width: 50%;
   margin: 0 auto;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 #main {
