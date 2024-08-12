@@ -79,4 +79,14 @@ a:hover {
   background-color: var(--hovercolor);
   color: black;
 }
-  
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#main {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+}
