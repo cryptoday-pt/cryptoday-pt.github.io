@@ -64,6 +64,10 @@ body, h1, h2, h3, h4, h5, h6  {
   text-align: center;
 }
 
+h3 {
+  text-align: left;
+}
+
 :root{
   --maincolor: rgb(0, 145, 107);
   --bordercl:black;
@@ -99,4 +103,21 @@ iframe {
   width: 100%;
   min-width: 325px;
   margin: 0 auto;
+}
+
+table {
+  border: 3px solid var(--maincolor);
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid #000000;
+}
+
+tr {
+  border-bottom: 1px dashed #000000;
+}
+
+#nontalk {
+  background-color: #D6EEEE
 }
