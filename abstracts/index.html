@@ -41,9 +41,18 @@ layout: default
 <p>This is based on joint work with Gianluca Brian, Antonio Faonio, Maciej Obremski, Lawrence Roy, Mark Simkin, Maciej Skórski, François-Xavier Standaert, and Daniele Venturi at Eurocrypt 2021 and CRYPTO 2024.</p>
 
 <section id="branco"></section>
-<h3>TBD</h3>
+<h3>Black-Box Non-Interactive Zero Knowledge from Vector Trapdoor Hash</h3>
 <p>Speaker: Pedro Branco</p>
-<p>Abstract: TBD.</p>
+<p>Abstract: We present a new approach for constructing non-interactive zero-knowledge (NIZK) proof systems from vector trapdoor hashing (VTDH) -- a generalization of trapdoor hashing [Döttling et al., Crypto'19]. Unlike prior applications of trapdoor hash to NIZKs, we use VTDH to realize the hidden bits model [Feige-Lapidot-Shamir, FOCS'90] leading to black-box constructions of NIZKs. This approach gives us the following new results:</p>
+<ul>
+  <li>A statistically-sound NIZK proof system based on the hardness of decisional Diffie-Hellman (DDH) and learning parity with noise (LPN) over finite fields with inverse polynomial noise rate. This gives the first statistically sound NIZK proof system that is not based on either LWE, or bilinear maps, or factoring.</li>
+  <li>
+    A dual-mode NIZK satisfying statistical zero-knowledge in the common random string mode and statistical soundness in the common reference string mode assuming the hardness of learning with errors (LWE) with polynomial modulus-to-noise ratio. This gives the first black-box construction of such a dual-mode NIZK under LWE. This improves the recent work of Waters (STOC'24) which relied on LWE with super-polynomial modulus-to-noise ratio and required a setup phase with private coins. 
+  </li>
+</ul>
+<p>
+The above constructions are black-box and satisfy single-theorem zero-knowledge property. Building on the works of Feige et al.(FOCS'90) and Fishclin and Rohrback (PKC'21), we upgrade these constructions (under the same assumptions) to satisfy multi-theorem zero-knowledge property at the expense of making non-black-box use of cryptography. This is joint work with Arka Rai Choudhuri, Nico Döttling, Abhishek Jain, Giulio Malavolta and Akshayaram Srinivasan.
+</p>
 
 
 
