@@ -75,7 +75,7 @@ h3 {
   --hovercolor:rgb(0, 145, 107);
 }  
 a {
-  border-bottom: 3px solid var(--maincolor);
+  border-bottom: 2px solid var(--maincolor);
   color: inherit;
   text-decoration: none;
 }
