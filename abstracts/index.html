@@ -54,6 +54,26 @@ layout: default
 The above constructions are black-box and satisfy single-theorem zero-knowledge property. Building on the works of Feige et al.(FOCS'90) and Fishclin and Rohrback (PKC'21), we upgrade these constructions (under the same assumptions) to satisfy multi-theorem zero-knowledge property at the expense of making non-black-box use of cryptography. This is joint work with Arka Rai Choudhuri, Nico Döttling, Abhishek Jain, Giulio Malavolta and Akshayaram Srinivasan.
 </p>
 
+<section id="short-talks"></section>
+<h2>Short Talks</h2>
+
+<h3>Quantum weak coin flipping with arbitrarily small bias</h3>
+<p>Speaker: Chrysoula Vlachou</p>
+<p>Weak coin flipping is an important cryptographic primitive that demonstrates the fundamental differences between classical and quantum cryptography. It is the strongest known primitive for secure two-party computation that in the classical case its security is completely compromised, unless extra assumptions (e.g. computational hardness) are made, while in the quantum case there exist protocols that achieve arbitrarily close to perfect security without the need for assumptions. The existence of such protocols was shown in 2007 [arXiv:0711.4114], however the highly complicated non-constructive proof hindered the development of protocols for more than a decade. In this short talk, I will introduce the problem, show its relevance for secure multi-party computation and outline our method that circumvents the non-constructive arguments in the proof of existence and permits the construction of explicit protocols [SODA '21, pp. 919-938].</p>
+
+<h3>Parameterized Complexity and Cryptography from Lattice Problems</h3>
+<p>Speaker: Mariana Vilela Marta Rio Costa</p>
+<p>Lattice based cryptography is a thriving research area, offering powerful attack tools and a basis for post-quantum cryptography. The Shortest Vector Problem (SVP) is one of the basic problems used in lattice-based cryptography. For more than 20 years, it has been known that SVP is NP-hard over any finite field and in any ell_p norm, for any constant approximation factor. However, the parameterized hardness of the problem is not yet fully determined. In this talk, I will discuss the W[1]-hardness of this problem. It is a natural idea to build cryptographic schemes based on special lattices. In this talk, I will also discuss the Lattice Isomorphism Problem (LIP) as a basis for encryption.</p>
+
+<h3>Curl: Private LLMs through Wavelet-Encoded Look-Up Tables</h3>
+<p>Speaker: Manuel Santos</p>
+<p>Machine learning applications require non-linear functions, yet current frameworks like CrypTen depend on high-error polynomial approximations. Curl offers a novel solution by using lookup tables and discrete wavelet transformations to evaluate non-linear functions with greater accuracy and efficiency. This approach reduces communication rounds and latency compared to leading frameworks. Tests on various LLMs, such as BERT and GPT-2, demonstrate improved performance. Additionally, Curl tackles a security issue raised in a recent work by proving the security of commonly used probabilistic truncation protocols in the stand-alone model.</p>
+
+<h3>MVP-ORAM: achieving true concurrency and fault-tolerance in parallel ORAM</h3>
+<p>Speaker: Bernardo Ferreira</p>
+<p>Parallel ORAM deals with the problem of how to hide access patterns in concurrent systems, where data access operations can be requested by multiple clients simultaneously and in parallel. In this setting, solutions must not only ensure that sequences of operations from individual clients remain oblivious, but also that the combination of sequences from different clients also remains oblivious, even if multiple clients decide to access the same data blocks at the exact same point in time. Given this problem, existing solutions achieve security by employing distributed locks, trusted proxies, and other concurrency control methods. However, these mechanisms severely limit concurrency, effectively transforming parallel ORAM in sequential ORAM, and may lead to deadlocks and availability issues if fault-tolerance is also considered. In this talk I will present MVP-ORAM, the first parallel ORAM protocol that is truly concurrent. MVP-ORAM is based on Path-ORAM, and avoids the use of distributed locks, trusted proxies, and other concurrency control mechanisms by allowing clients to perform concurrent requests at will and then merging conflicting updates as they happen. This approach allows MVP-ORAM to achieve a property known in concurrent systems as wait-freedom, meaning that each client is guaranteed to complete its operations regardless of the delays and failures of other clients. Experimental results show that MVP-ORAM can process up to 587 ops/s in modern networks.</p>
+
+
 
 
 
