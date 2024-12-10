@@ -121,3 +121,15 @@ tr {
 #nontalk {
   background-color: #D6EEEE
 }
+
+#header-container {
+  min-width: 325px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#footer-container {
+  min-width: 325px;
+  width: 50%;
+  margin: 0 auto;
+}
