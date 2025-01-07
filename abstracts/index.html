@@ -5,12 +5,12 @@ layout: default
 
 <section id="celi"></section>
 <h3>MAYO, practical post-quantum signatures and a bit more</h3>
-<p>Speaker: Sofía Celi</p>
+<p>Speaker: Sofía Celi (<a href="https://cryptoday.pt/slides/celi.pdf">Slides</a>)</p>
 <p>Abstract: MAYO is a post-quantum signature scheme currently under submission to the NIST's new call for post-quantum signatures. Known for its practicality and seamless integration with network protocols, MAYO offers a robust solution to quantum-safety. In this talk, we will delve into the design principles behind MAYO and its practical benefits. Additionally, we will explore how its design can be extended to support advanced primitives such as blind signatures and threshold signatures.</p>
 
 <section id="barbosa"></section>
 <h3>Formal Verification of Post-Quantum Cryptography in Formosa-Crypto</h3>
-<p>Speaker: Manuel Barbosa</p>
+<p>Speaker: Manuel Barbosa (<a href="https://cryptoday.pt/slides/barbosa.pdf">Slides</a>)</p>
 <p>Abstract: In this talk I will give an overview of how the Jasmin and 
   EasyCrypt tools are used to formally verify the security of PQC
   designs and the correctness and security of PQC high-speed implementations.
@@ -20,29 +20,29 @@ layout: default
 
 <section id="gama"></section>
 <h3>Private outsourcing of zkSNARK proof construction</h3>
-<p>Speaker: Mariana Gama</p>
+<p>Speaker: Mariana Gama (<a href="https://cryptoday.pt/slides/gama.pdf">Slides</a>)</p>
 <p>Abstract: Existing systems for generating zkSNARK proofs are quite costly, requiring the prover to have access to a powerful machine. Computing such proofs in low-end devices can be prohibitively expensive, motivating the outsourcing of the proving procedure. However, simply handing the computation over to an untrusted cloud server compromises the privacy of the witness. Incidentally, the traditional bottlenecks of most commonly deployed zkSNARKs consist of mostly linear operations on the witness-dependent data and are thus amenable to be computed with multi-party computation (MPC) or fully homomorphic encryption (FHE). In recent years, a few constructions have been presented for efficiently outsourcing proof computation with either MPC or FHE. In this talk, we will overview those existing constructions and introduce some new results in this line of work.</p>
 
 <section id="goulao"></section>
 <h3>Pseudo-Entanglement is Necessary for EFI Pairs</h3>
-<p>Speaker: Manuel Goulão</p>
+<p>Speaker: Manuel Goulão (<a href="https://cryptoday.pt/slides/goulão.pdf">Slides</a>)</p>
 <p>Abstract: Regarding minimal assumptions, most of classical cryptography is known to depend on the existence of One-Way Functions (OWFs). However, recent evidence has shown that this is not the case when considering quantum resources. Besides the well known unconditional security of Quantum Key Distribution, it is now known that computational cryptography may be built on weaker primitives than OWFs, e.g., pseudo-random states [JLS18], one-way state generators [MY23], or EFI pairs of states [BCQ23]. We consider a new quantum resource, pseudo-entanglement, and show that the existence of EFI pairs, one of the current main candidates for the weakest computational assumption for cryptography (necessary for commitments, oblivious transfer, secure multi-party computation, computational zero-knowledge proofs), implies the existence of pseudo-entanglement, as defined by [ABF+24, ABV23] under some reasonable adaptations. We prove this by constructing a new family of pseudo-entangled quantum states given only EFI pairs. Our result has important implications for the field of computational cryptography. It shows that if pseudo-entanglement does not exist, then most of cryptography cannot exist either. Moreover, it establishes pseudo-entanglement as a new minimal assumption for most of computational cryptography, which may pave the way for the unification of other assumptions into a single primitive. Finally, pseudo-entanglement connects physical phenomena and efficient computation, thus, our result strengthens the connection between cryptography and the physical world.</p>
 
 <section id="brandao"></section>
 <h3>Cryptography Endeavors at NIST: Standardization and Beyond</h3>
-<p>Speaker: Luís Brandão</p>
+<p>Speaker: Luís Brandão (<a href="https://cryptoday.pt/slides/brandão.pdf">Slides</a>)</p>
 <p>Abstract: In the National Institute of Standards and Technology (NIST) in the United States, the Cryptographic Technology Group is responsible for researching, developing, engineering, and producing guidelines, recommendations and best practices for cryptographic algorithms, methods, and protocols. This talk will overview some crypto activities at NIST, from the perspective of a foreign guest researcher at NIST, and demystify how NIST is open for collaboration and feedback from multiple stakeholders. The talk will delve a bit into exploratory projects about multi-party threshold cryptography (MPTC) and privacy-enhancing cryptography (PEC), and will also take a chance to give brief updates about new/emerging standards from post-quantum cryptography (PQC) and lightweight cryptography (LWC).</p>
 
 <section id="ribeiro"></section>
 <h3>“Noisy” versus “Bounded” Leakage</h3>
-<p>Speaker: João Ribeiro</p>
+<p>Speaker: João Ribeiro (<a href="https://cryptoday.pt/slides/ribeiro.pdf">Slides</a>)</p>
 <p>Abstract: Physical implementations of cryptographic schemes are the target of “side-channel attacks”, which aim to extract some information about secret components (e.g., a secret key) by exploiting hardware quirks. This has given rise to the study of leakage-resilient cryptography, whose goal is to design cryptographic schemes that remain secure even when partial information about secret components is leaked to the adversary. There is, however, a mismatch between the theory and practice of leakage-resilient cryptography. Theoretical work on leakage-resilience usually focuses on the bounded leakage model, where the adversary is allowed to learn an arbitrary t-bit output function of the secret key, with t being a predefined threshold. On the other hand, real world side-channel attacks output very long transcripts that contain noisy information about the key. Ideally, we would like to say that every cryptographic scheme that is resilient to bounded leakage is also resilient to “noisy” leakage, for a useful definition of “noisy”. In this talk, I will discuss recent work in this direction.</p>
   
 <p>This is based on joint work with Gianluca Brian, Antonio Faonio, Maciej Obremski, Lawrence Roy, Mark Simkin, Maciej Skórski, François-Xavier Standaert, and Daniele Venturi at Eurocrypt 2021 and CRYPTO 2024.</p>
 
 <section id="branco"></section>
 <h3>Black-Box Non-Interactive Zero Knowledge from Vector Trapdoor Hash</h3>
-<p>Speaker: Pedro Branco</p>
+<p>Speaker: Pedro Branco (<a href="https://cryptoday.pt/slides/branco.pdf">Slides</a>)</p>
 <p>Abstract: We present a new approach for constructing non-interactive zero-knowledge (NIZK) proof systems from vector trapdoor hashing (VTDH) -- a generalization of trapdoor hashing [Döttling et al., Crypto'19]. Unlike prior applications of trapdoor hash to NIZKs, we use VTDH to realize the hidden bits model [Feige-Lapidot-Shamir, FOCS'90] leading to black-box constructions of NIZKs. This approach gives us the following new results:</p>
 <ul>
   <li>A statistically-sound NIZK proof system based on the hardness of decisional Diffie-Hellman (DDH) and learning parity with noise (LPN) over finite fields with inverse polynomial noise rate. This gives the first statistically sound NIZK proof system that is not based on either LWE, or bilinear maps, or factoring.</li>
@@ -58,15 +58,15 @@ The above constructions are black-box and satisfy single-theorem zero-knowledge 
 <h2>Short Talks</h2>
 
 <h3>Quantum weak coin flipping with arbitrarily small bias</h3>
-<p>Speaker: Chrysoula Vlachou</p>
+<p>Speaker: Chrysoula Vlachou (<a href="https://cryptoday.pt/slides/vlachou.pdf">Slides</a>)</p>
 <p>Weak coin flipping is an important cryptographic primitive that demonstrates the fundamental differences between classical and quantum cryptography. It is the strongest known primitive for secure two-party computation that in the classical case its security is completely compromised, unless extra assumptions (e.g. computational hardness) are made, while in the quantum case there exist protocols that achieve arbitrarily close to perfect security without the need for assumptions. The existence of such protocols was shown in 2007 [arXiv:0711.4114], however the highly complicated non-constructive proof hindered the development of protocols for more than a decade. In this short talk, I will introduce the problem, show its relevance for secure multi-party computation and outline our method that circumvents the non-constructive arguments in the proof of existence and permits the construction of explicit protocols [SODA '21, pp. 919-938].</p>
 
 <h3>Parameterized Complexity and Cryptography from Lattice Problems</h3>
-<p>Speaker: Mariana Vilela Marta Rio Costa</p>
+<p>Speaker: Mariana Vilela Mar (<a href="https://cryptoday.pt/slides/costa.pdf">Slides</a>)</p>
 <p>Lattice based cryptography is a thriving research area, offering powerful attack tools and a basis for post-quantum cryptography. The Shortest Vector Problem (SVP) is one of the basic problems used in lattice-based cryptography. For more than 20 years, it has been known that SVP is NP-hard over any finite field and in any ell_p norm, for any constant approximation factor. However, the parameterized hardness of the problem is not yet fully determined. In this talk, I will discuss the W[1]-hardness of this problem. It is a natural idea to build cryptographic schemes based on special lattices. In this talk, I will also discuss the Lattice Isomorphism Problem (LIP) as a basis for encryption.</p>
 
 <h3>Curl: Private LLMs through Wavelet-Encoded Look-Up Tables</h3>
-<p>Speaker: Manuel Santos</p>
+<p>Speaker: Manuel Santos (<a href="https://cryptoday.pt/slides/santos.pdf">Slides</a>)</p>
 <p>Machine learning applications require non-linear functions, yet current frameworks like CrypTen depend on high-error polynomial approximations. Curl offers a novel solution by using lookup tables and discrete wavelet transformations to evaluate non-linear functions with greater accuracy and efficiency. This approach reduces communication rounds and latency compared to leading frameworks. Tests on various LLMs, such as BERT and GPT-2, demonstrate improved performance. Additionally, Curl tackles a security issue raised in a recent work by proving the security of commonly used probabilistic truncation protocols in the stand-alone model.</p>
 
 <h3>MVP-ORAM: achieving true concurrency and fault-tolerance in parallel ORAM</h3>
